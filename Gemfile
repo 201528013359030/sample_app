@@ -6,7 +6,7 @@ ruby '2.0.0'
 gem 'rails', '4.2.5'
 
 group :development, :test do
-  gem 'sqlite3', '1.3.7'
+  gem 'sqlite3'
   gem 'rspec-rails', '2.13.1'
 end
 
@@ -28,3 +28,5 @@ end
 group :production do
   gem 'pg', '0.15.1'
 end
+
+gem 'tzinfo-data', platforms: [:x64_mingw, :mingw, :mswin]
